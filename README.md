@@ -35,11 +35,15 @@ or
 ```{shell}
 pnpm add cypress --save-dev
 ```
----
-
 This will install Cypress locally as a dev dependency for your project.
 
 **OBS:Make sure you have Node.js installed and that you have already run npm init or have a node_modules folder or package.json file in the root of your project to ensure cypress is installed in the correct directory**.
+
+**Browser**
+
+We will use Google Chrome as a browser to run the tests.
+
+---
 
 
 
