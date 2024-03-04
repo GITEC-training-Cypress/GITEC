@@ -1,20 +1,41 @@
-# cypress-framework-dojo-ambev
+# cypress-framework-dojo-gitec
 Cypress is a next generation front end testing tool built for the modern web. For the dojo we going to do you need install first then we start ! 
 Install Cypress for Mac, Linux, or Windows, then get started.
 
+---
 
 
-**INSTALLATION**
+## Installations:
 
-**npm install cypress --save-dev**
+**Visual Studio Code**
 
+You will choose the option corresponding to your computer
+https://code.visualstudio.com/
+![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/328f0cb1-aac8-49b9-ac03-46d3c5962694)
+
+**Node.js**
+
+You will choose the option corresponding to your computer 
+https://nodejs.org/en/download
+![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/f473cc8f-66d5-47c3-8da8-94cf9417485c)
+
+
+**Cypres.io**
+
+Installing Cypress.io with the following commands in the Visual Studio Code command prompt. 
+You can open the comand prompt with => Crtl+Shift+'
+```{shell}
+npm install cypress --save-dev
+```
 or
-
-**yarn add cypress --dev**
-
+```{shell}
+yarn add cypress --dev
+```
 or
-
-**pnpm add cypress --save-dev**
+```{shell}
+pnpm add cypress --save-dev
+```
+---
 
 This will install Cypress locally as a dev dependency for your project.
 
