@@ -20,7 +20,7 @@ https://nodejs.org/en/download
 ![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/f473cc8f-66d5-47c3-8da8-94cf9417485c)
 
 
-**Cypres.io**
+**Cypress.io**
 
 Installing Cypress.io with the following commands in the Visual Studio Code command prompt. 
 You can open the comand prompt with => Crtl+Shift+'
