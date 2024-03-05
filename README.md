@@ -19,11 +19,19 @@ You will choose the option corresponding to your computer
 https://nodejs.org/en/download
 ![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/f473cc8f-66d5-47c3-8da8-94cf9417485c)
 
+**Create a new folder on your C: drive**
+
+Name Folder: CYPRESS_GITEC
 
 **Cypress.io**
 
+Open the folder CYPRESS_GITEC using Visual Studio Code to install Cypress.io.
+
 Installing Cypress.io with the following commands in the Visual Studio Code command prompt. 
 You can open the comand prompt with => Crtl+Shift+'
+
+![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/0a1599ee-2f60-4f85-96e4-9a47871890c9)
+
 ```{shell}
 npm install cypress --save-dev
 ```
@@ -36,6 +44,8 @@ or
 pnpm add cypress --save-dev
 ```
 This will install Cypress locally as a dev dependency for your project.
+![image](https://github.com/GITEC-training-Cypress/GITEC/assets/90401803/c5bb2fa5-635a-461f-a55b-7fd1ac53e0d8)
+
 
 **OBS:Make sure you have Node.js installed and that you have already run npm init or have a node_modules folder or package.json file in the root of your project to ensure cypress is installed in the correct directory**.
 
@@ -93,19 +103,3 @@ If you're using Linux, you'll want to have the required dependencies installed o
 **dnf install -y xorg-x11-server-Xvfb gtk3-devel nss alsa-lib**
 
 
-
-**OPENING CYPRESS**
-
-
-cypress open
-You can open Cypress from your project root one of the following ways:
-
-**Using npx**
-
-**npx cypress open**
-
-**Using yarn**
-
-**yarn run cypress open**
-
-After a moment, the Cypress Launchpad will open.
