@@ -2,7 +2,7 @@
 import { faker } from "@faker-js/faker";
 
 describe("Validate features of login", () => {
-  context.skip("Create a new user", () => {
+  context("Create a new user", () => {
     beforeEach(() => {
       //accessing the website
       cy.visit("https://magento.softwaretestingboard.com");
@@ -70,7 +70,7 @@ describe("Validate features of login", () => {
     });
   });
 
-  context("Login with a user registered", () => {
+  context("Login with an user registered", () => {
     beforeEach(() => {
       cy.visit("/customer/account/login");
     });
